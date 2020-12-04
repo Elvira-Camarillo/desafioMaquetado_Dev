@@ -14,7 +14,7 @@
 
 body {
   font-family: "Soleil";
-  background-color: #dee0e1;
+  background-color: #f0f1f3;
   color: #2b2f33;
   line-height: 1.25;
   -webkit-font-smoothing: antialiased;
@@ -364,64 +364,122 @@ img {
   top: -2px;
 }
 
-.profile {
-  position: relative;
-}
-
-.card-image-profile {
+.profile-user .card-image-profile {
   width: 3em;
 }
 
-.card-title {
+.profile-user .card-title {
   position: relative;
-  top: -65px;
-  left: 55px;
+  top: -100px;
+  left: 80px;
 }
 
-.card-image-profile {
+.profile-user .card-image-profile {
   position: relative;
   top: -45px;
 }
 
-.card-text {
+.profile-user .card-text {
   position: relative;
-  top: -60px;
+  top: -80px;
 }
 
-.boton-2 {
+.profile-user .boton-2 {
   border-radius: 5px;
-  color: #f9fafa;
+  color: white;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   font-size: 1em;
   font-family: #3b49df;
+  font-weight: bold;
   background-color: #3b49df;
   position: relative;
-  top: -60px;
+  top: -80px;
 }
 
-.boton-2:hover {
+.profile-user .boton-2:hover {
   background-color: #1827ce;
+  color: white;
 }
 
-.card-body {
+.profile-user .card-body {
   font-family: 'helvetica neue';
   font-size: 1em;
 }
 
-.card-body .card-text {
+.profile-user .card-body .card-text {
   color: #585f65;
 }
 
-.profile-data {
+.profile-user .profile-data {
   position: relative;
-  top: -60px;
+  top: -80px;
 }
 
-.profile-data h6 {
+.profile-user .profile-data h6 {
   font-family: 'helvetica neue';
   font-size: 12px;
   color: #6b7888;
   font-weight: bold;
+}
+
+.detail-user {
+  font-family: 'helvetica neue';
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+
+.detail-user h5 {
+  font-weight: bold;
+}
+
+.detail-user .a-1:link {
+  color: #3845c7;
+}
+
+.detail-user .a-1:visited {
+  color: #3845c7;
+}
+
+.detail-user .a-1:hover {
+  color: #3845c7;
+  text-decoration: none;
+}
+
+.detail-user .a-2:active {
+  color: black;
+}
+
+.detail-user .a-2:link {
+  color: black;
+}
+
+.detail-user .a-2:visited {
+  color: black;
+}
+
+.detail-user .a-2:hover {
+  color: #3845c7;
+  text-decoration: none;
+}
+
+.detail-user .a-1:active {
+  color: #3845c7;
+}
+
+.detail-user .list-group li {
+  font-size: 16px;
+}
+
+.detail-user .list-group p {
+  padding-top: 1em;
+  font-size: 15px;
+  color: #585f65;
+  line-height: 150%;
+  word-spacing: 1em;
 }
 /*# sourceMappingURL=style.css.map */

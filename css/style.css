@@ -279,6 +279,26 @@ body {
           box-shadow: 10px 10px;
 }
 
+.card-image-profile {
+  width: 3em;
+}
+
+.card-title {
+  position: relative;
+  top: -65px;
+  left: 55px;
+}
+
+.card-image-profile {
+  position: relative;
+  top: -45px;
+}
+
+.card-text {
+  position: relative;
+  top: -60px;
+}
+
 .boton-2 {
   border-radius: 5px;
   color: #f9fafa;
@@ -287,6 +307,8 @@ body {
   font-size: 1em;
   font-family: #3b49df;
   background-color: #3b49df;
+  position: relative;
+  top: -60px;
 }
 
 .boton-2:hover {
@@ -295,10 +317,16 @@ body {
 
 .card-body {
   font-family: 'helvetica neue';
+  font-size: 1em;
 }
 
 .card-body .card-text {
   color: #585f65;
+}
+
+.profile-data {
+  position: relative;
+  top: -60px;
 }
 
 .profile-data h6 {

@@ -79,6 +79,37 @@ img {
 
 .nav-header {
   background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.aside-left .img-avatar {
+  max-width: 48px;
+  height: 48px;
+}
+
+.aside-left .resources ul {
+  max-height: 42vh;
+  overflow-y: auto;
+}
+
+.aside-left .resources .list-item {
+  width: 100%;
+}
+
+.aside-left .resources .list-item a {
+  padding: 4px;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.aside-left .resources .list-item a:hover {
+  background-color: #eef0f1;
+  color: #1827ce;
 }
 
 .cards-main .container-post-menu .icon_db {

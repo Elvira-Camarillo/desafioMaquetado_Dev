@@ -1,0 +1,28 @@
+.aside-left{
+    .img-avatar{
+        max-width: 48px;
+        height: 48px;
+    }
+    .resources{
+    
+        ul{
+            max-height: 42vh;
+            overflow-y: auto;
+        }
+    
+        .list-item{
+            width: 100%;
+            a{
+                padding: 4px;
+                width: 100%;
+                display: inline-block;
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                background-color: $icon-bg;
+                color: #1827ce;
+            }
+        }
+    }
+}

@@ -69,7 +69,7 @@
   color: #3845c7;
   text-decoration: none;
 }
-.detail-user .a-2:active {
+.detail-user .a-1:active {
   color: black;
 }
 .detail-user .a-2:link {
@@ -82,7 +82,7 @@
   color: #3845c7;
   text-decoration: none;
 }
-.detail-user .a-1:active {
+.detail-user .a-2:active {
   color: #3845c7;
 }
 .detail-user .list-group li {

@@ -77,3 +77,77 @@
         }
     }
 }
+
+.aside-home{
+    .aside-listen{
+        box-shadow: 0 0 0 1px $card-border;
+        background:white;
+        .aside-listen-img{
+            min-width: 115px;
+            .aside-listen-img-l{
+                min-width: 115px;
+                height: 115px;
+                display: inline-block;
+            }
+            span{
+                color: $button-primary-bg-hover;
+                font-weight: 600;
+                font-size: .785rem;
+            }
+        }
+        .aside-listen-txt{
+            h4{
+                font-size: 1rem;
+                font-weight: 600;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.aside-listing-posts{
+    box-shadow: 0 0 0 1px $card-border;
+    background-color: $bg-secondary-card;
+    .listing-posts-head{
+        border-bottom: 1px solid $bg-body;
+        strong{
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        a{
+            color: $focus-form-border;
+            text-decoration: none;
+            font-size: .875rem;
+            font-weight: 600;
+        }
+    }
+    .listing-posts-item{
+        border-bottom: 1px solid $bg-body;
+    }
+    .listing-posts-title{
+        font-size: 1rem;
+    }
+    .listing-posts-category{
+        color: $color-gray;
+        font-size: .875rem;
+        display: block;
+    }   
+    .listing-posts-indicator{
+        padding: .25rem;
+        border-radius: 4px;
+        color: #fff;
+        background-color: $button-primary-bg;
+        display: inline-block;
+        font-size: .75rem;
+    }
+    .listing-posts-link{
+        text-align: center;
+        width: 100%;
+        color: $color-link;
+        &:hover{
+            color: $button-primary-bg;
+        }
+    }
+}

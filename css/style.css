@@ -14,13 +14,161 @@
 
 body {
   font-family: "Soleil";
-  background-color: #f0f1f3;
+  background-color: #dee0e1;
+  color: #2b2f33;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1280px !important;
+}
+
+.boton {
+  border-radius: 5px;
+  color: #f9fafa;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #3b49df;
+}
+
+.boton:hover {
+  background-color: #1827ce;
+}
+
+.dropdown-menu {
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.bg-textfield {
+  background-color: #f9fafa;
+}
+
+.icon-hover {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0;
+}
+
+.icon-hover:hover {
+  background-color: #eef0f1;
+}
+
+.carita {
+  width: 30px;
+  border: 1px solid lightgray;
+}
+
+.search-textfield {
+  max-width: 420px;
+}
+
+#sombrita {
+  -webkit-box-shadow: 10px 10px;
+          box-shadow: 10px 10px;
+}
+
+.nav-header {
+  background-color: #fff;
+}
+
+.cards-main .container-post-menu .icon_db {
+  width: 24px;
+  height: 24px;
+}
+
+.cards-main .container-post-menu .post_title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.cards-main .container-post-menu .menu_rigth .select-menu {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  color: #08090a;
+  font-size: 16px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDE2TDYgMTBIMThMMTIgMTZaIiBmaWxsPSIjMDgwOTBBIi8+Cjwvc3ZnPg==);
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  border: none;
+  border: 1px solid #99a3ad;
+  outline: none;
+}
+
+.cards-main .container-post-menu .menu_rigth .select-menu:focus {
+  border: 1px solid #3b49df;
+  -webkit-box-shadow: 1px 1px 0 #3b49df;
+          box-shadow: 1px 1px 0 #3b49df;
+}
+
+.cards-main .container-post-menu .menu_rigth .nav_menu a {
+  color: #08090a;
+}
+
+.cards-main .card_main {
+  -webkit-box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+          box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+}
+
+.cards-main .card_main .author .img-author {
+  width: 32px;
+  height: 32px;
+  margin-right: .5rem;
+}
+
+.cards-main .card_main .author .author_data a {
+  color: #4d5760;
+  font-size: 0.875rem;
+}
+
+.cards-main .card_main .author .author_data p {
+  font-size: .75rem;
+  color: #64707D;
+}
+
+.cards-main .card_main .card-resume {
+  padding-left: 2.5rem;
+}
+
+.cards-main .card_main .card-resume h3 {
+  color: #08090A;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cards-main .card_main .card-resume .hashtags {
+  color: #64707D;
+  font-size: .875rem;
+}
+
+.cards-main .card_main .card-resume .icon-card-item {
+  font-size: .875rem;
+}
+
+.cards-main .card_main .card-resume .mins-to-read {
+  color: #64707D;
+}
+
+.cards-main .card_main .card-resume .btn-save {
+  background-color: #d2d6db;
+  font-size: 0.875rem;
+  color: #363d44;
 }
 
 .page-footer {
   background-color: #d4d7dc;
-  position: absolute;
-  bottom: 0;
+  position: relative;
   font-family: 'helvetica neue';
 }
 
@@ -216,67 +364,8 @@ body {
   top: -2px;
 }
 
-.icons-interaction {
-  font-family: 'helvetica neue';
-}
-
-.icons-interaction .numbers {
-  font-size: 0.9em;
-  color: #585f65;
-  padding-top: 0.5em;
-  padding-bottom: 2em;
-}
-
-.icons-interaction .ellipsis {
-  color: #6b7888;
-}
-
-.boton {
-  border-radius: 5px;
-  color: #f9fafa;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  font-size: 1.125rem;
-  font-family: "Roboto", sans-serif;
-  background-color: #3b49df;
-}
-
-.boton:hover {
-  background-color: #1827ce;
-}
-
-.dropdown-menu {
-  border-radius: 5px;
-  border: 3px solid black;
-}
-
-.bg-textfield {
-  background-color: #f9fafa;
-}
-
-.icon-hover {
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  padding: 0;
-}
-
-.icon-hover:hover {
-  background-color: #eef0f1;
-}
-
-.carita {
-  width: 30px;
-  border: 1px solid lightgray;
-}
-
-.search-textfield {
-  max-width: 420px;
-}
-
-#sombrita {
-  -webkit-box-shadow: 10px 10px;
-          box-shadow: 10px 10px;
+.profile {
+  position: relative;
 }
 
 .card-image-profile {

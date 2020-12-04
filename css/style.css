@@ -166,6 +166,92 @@ img {
   color: #363d44;
 }
 
+.aside-home .aside-listen {
+  -webkit-box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+          box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+  background: white;
+}
+
+.aside-home .aside-listen .aside-listen-img {
+  min-width: 115px;
+}
+
+.aside-home .aside-listen .aside-listen-img .aside-listen-img-l {
+  min-width: 115px;
+  height: 115px;
+  display: inline-block;
+}
+
+.aside-home .aside-listen .aside-listen-img span {
+  color: #1827ce;
+  font-weight: 600;
+  font-size: .785rem;
+}
+
+.aside-home .aside-listen .aside-listen-txt h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.aside-home .aside-listen .aside-listen-txt p {
+  font-size: 1rem;
+}
+
+.aside-listing-posts {
+  -webkit-box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+          box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+  background-color: #f9fafa;
+}
+
+.aside-listing-posts .listing-posts-head {
+  border-bottom: 1px solid #dee0e1;
+}
+
+.aside-listing-posts .listing-posts-head strong {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.aside-listing-posts .listing-posts-head a {
+  color: #3b49df;
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.aside-listing-posts .listing-posts-item {
+  border-bottom: 1px solid #dee0e1;
+}
+
+.aside-listing-posts .listing-posts-title {
+  font-size: 1rem;
+}
+
+.aside-listing-posts .listing-posts-category {
+  color: #64707D;
+  font-size: .875rem;
+  display: block;
+}
+
+.aside-listing-posts .listing-posts-indicator {
+  padding: .25rem;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #3b49df;
+  display: inline-block;
+  font-size: .75rem;
+}
+
+.aside-listing-posts .listing-posts-link {
+  text-align: center;
+  width: 100%;
+  color: #202428;
+}
+
+.aside-listing-posts .listing-posts-link:hover {
+  color: #3b49df;
+}
+
 .page-footer {
   background-color: #d4d7dc;
   position: relative;
@@ -362,34 +448,5 @@ img {
   position: absolute;
   right: 48px;
   top: -2px;
-}
-
-.boton-2 {
-  border-radius: 5px;
-  color: #f9fafa;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  font-size: 1em;
-  font-family: #3b49df;
-  background-color: #3b49df;
-}
-
-.boton-2:hover {
-  background-color: #1827ce;
-}
-
-.card-body {
-  font-family: 'helvetica neue';
-}
-
-.card-body .card-text {
-  color: #585f65;
-}
-
-.profile-data h6 {
-  font-family: 'helvetica neue';
-  font-size: 12px;
-  color: #6b7888;
-  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

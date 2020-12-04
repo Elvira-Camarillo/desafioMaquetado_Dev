@@ -14,6 +14,7 @@
 
 body {
   font-family: "Soleil";
+  background-color: #f0f1f3;
 }
 
 .page-footer {
@@ -213,5 +214,20 @@ body {
   position: absolute;
   right: 48px;
   top: -2px;
+}
+
+.icons-interaction {
+  font-family: 'helvetica neue';
+}
+
+.icons-interaction .numbers {
+  font-size: 0.9em;
+  color: #585f65;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}
+
+.icons-interaction .ellipsis {
+  color: #6b7888;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,11 +8,114 @@
     <title>Article</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <!-- Aquí va la NavBar Oscar -->
-        </nav>
-    </header>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-6 bg-white d-flex align-items-center">
+                    <a class="navbar-brand" href="https://dev.to/">
+                      <img
+                        src="img/devicon.svg"
+                        width="50px"
+                        height="40px"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </a>
+                    <div class="w-100">
+                      <form class="form-inline my-2 my-lg-0">
+                        <input
+                          class="form-control mr-sm-2 w-100 bg-textfield search-textfield"
+                          type="search"
+                          placeholder="Search..."
+                          aria-label="Search"
+                        />
+                      </form>
+                    </div>                    
+                </div>
+
+                <div class="col-6 col-lg-6 bg-white d-flex  justify-content-end align-items-center">
+                    <ul class="nav">
+                        <!-- navbar-nav -->
+                      <li class="nav-item d-flex align-items-center">
+                        <button
+                          class="btn btn-outline-success boton d-none d-md-block"
+                          type="submit"
+                        >
+                          Write a post
+                        </button>
+                      </li>
+                      <li class="nav-item d-flex align-items-center align-self-center">
+                        <a
+                          class="nav-link icon-hover rounded-circle align-self-center d-flex align-items-center justify-content-center"
+                          href="https://dev.to/connect"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            aria-labelledby="aj1yd4ke0z0zt7463hs6nyz1bujl31yr"
+                            class=""
+                          >
+                            <title id="aj1yd4ke0z0zt7463hs6nyz1bujl31yr">
+                              Connect
+                            </title>
+                            <path
+                              d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10H2l2.929-2.929A9.969 9.969 0 012 12zm4.828 8H12a8 8 0 10-8-8c0 2.152.851 4.165 2.343 5.657l1.414 1.414-.929.929zM8 13h8a4 4 0 11-8 0z"
+                            ></path>
+                          </svg>
+                          <!-- <img src="img/chaticon.svg">   -->
+                        </a>
+                      </li>
+                      <li class="nav-item d-flex align-items-center align-self-center">
+                        <a
+                          class="nav-link icon-hover rounded-circle  d-flex align-items-center justify-content-center"
+                          href="https://dev.to/notifications"
+                        >
+                          <img src="img/bellicon.svg" />
+                        </a>
+                        <!-- <span class="sr-only">(current)</span> -->
+                      </li>
+                      <li class="nav-item dropdown d-flex align-items-center align-self-center">
+                        <a
+                          class="nav-link icon-hover rounded-circle  d-flex align-items-center justify-content-center"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="img/usericon.png"
+                            alt=""
+                            class="rounded-circle carita"
+                          />
+                        </a>
+                        <div
+                          class="dropdown-menu"
+                          id="sombrita"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <a class="dropdown-item" href="#">Nombre</a>
+                          <a class="dropdown-item" href="#">@Nombre</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Dashboard</a>
+                          <a class="dropdown-item" href="#">Write a post</a>
+                          <a class="dropdown-item" href="#">Reading list</a>
+                          <a class="dropdown-item" href="#">Settings</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Sign Out</a>
+                        </div>
+                      </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <main>
         <div class="container_fluid">
             <div class="row">

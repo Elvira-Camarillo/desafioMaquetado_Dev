@@ -5,6 +5,18 @@
 }
 body {
     font-family: $font-family;
-    background-color: #f0f1f3;
+    background-color: #dee0e1;
+    color:#2b2f33;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+img{
+    max-width: 100%;
+}
 
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl{
+        max-width: 1280px;
+    }
 }

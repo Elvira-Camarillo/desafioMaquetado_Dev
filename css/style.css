@@ -82,7 +82,7 @@ img {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 1021;
 }
 
 .aside-left .img-avatar {
@@ -110,6 +110,42 @@ img {
 .aside-left .resources .list-item a:hover {
   background-color: #eef0f1;
   color: #1827ce;
+}
+
+.icons-interaction a.heart-icon,
+.icons-interaction a.unicorn-icon,
+.icons-interaction a.bookmark-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  -webkit-transition: all linear .25s;
+  transition: all linear .25s;
+}
+
+.icons-interaction a.heart-icon:hover {
+  background-color: rgba(220, 24, 24, 0.1);
+}
+
+.icons-interaction a.heart-icon:hover svg path {
+  fill: #dc1818;
+}
+
+.icons-interaction a.unicorn-icon:hover {
+  background-color: rgba(38, 217, 202, 0.1);
+}
+
+.icons-interaction a.unicorn-icon:hover svg path {
+  fill: #26d9ca;
+}
+
+.icons-interaction a.bookmark-icon:hover {
+  background-color: rgba(59, 73, 223, 0.1);
+}
+
+.icons-interaction a.bookmark-icon:hover svg path {
+  fill: #3b49df;
 }
 
 .cards-main .container-post-menu .icon_db {
@@ -145,6 +181,18 @@ img {
 
 .cards-main .container-post-menu .menu_rigth .nav_menu a {
   color: #08090a;
+  border-radius: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.cards-main .container-post-menu .menu_rigth .nav_menu a:hover {
+  background-color: rgba(59, 73, 223, 0.1);
+  color: #3b49df;
+}
+
+.cards-main .container-post-menu .menu_rigth .nav_menu a.active {
+  border-bottom: 4px solid #3b49df;
+  border-radius: 0;
 }
 
 .cards-main .card_main {
@@ -281,6 +329,38 @@ img {
 
 .aside-listing-posts .listing-posts-link:hover {
   color: #3b49df;
+}
+
+.card-detail .title-article {
+  font-size: 3rem;
+}
+
+.card-detail .list_tags a {
+  padding: .25rem;
+  color: #fff;
+}
+
+.card-detail .img-author-avatar {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card-detail .date-article {
+  color: #64707D;
+}
+
+.card-body-article ol {
+  padding-left: 1rem;
+}
+
+.card-body-article img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.card-body-article h3 {
+  margin-top: 1.5rem;
 }
 
 .page-footer {
